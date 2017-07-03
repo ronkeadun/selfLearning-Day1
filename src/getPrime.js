@@ -1,4 +1,7 @@
-const getPrimes=(n)=> {
+'use strict';
+module.exports = {
+
+getPrimes:(n)=> {
 
     var num = [], primes = [];
 
@@ -20,4 +23,5 @@ const getPrimes=(n)=> {
 
     return primes;
 
+}
 }
